@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/speakers.css">
+    <link rel="stylesheet" href="css/form.css">
 </head>
 <body>
     <header class="header">
@@ -105,16 +106,24 @@
             </ul>
         </div>
     </section>
-    <section>
-        <h2>Seus dados</h2>
+    <section class="panel-form">
+        <div class="container">
+            <h2 class="title">Seus dados</h2>
 
-        <form>
-            <label>Nome</label>
-            <input type="text">
-            <label>E-mail</label>
-            <input type="email">
-            <button>REALIZAR INSCRIÇÃO</button>
-        </form>
+            <form>
+                <div class="field">
+                    <label class="field-label">Nome</label>
+                    <input class="field-input" type="text">
+                </div>
+                <div class="field">
+                    <label class="field-label">E-mail</label>
+                    <input class="field-input" type="email">
+                </div>
+                <div class="button-place">
+                    <button>REALIZAR INSCRIÇÃO</button>
+                </div>
+            </form>
+        </div>
     </section>
 </body>
 </html>
