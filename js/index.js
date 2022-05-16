@@ -5,7 +5,7 @@ function ativaScrollSuave(selector) {
 
         $('html, body').animate({
             scrollTop: $(target).offset().top
-        }, 1000);
+        }, 500);
     });
 }
 
